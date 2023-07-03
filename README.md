@@ -5,8 +5,8 @@
 > Somethings will be add here soon.
 > | Members|
 > | :----: |
-> | [Caueh O.](github.com/cauehcraft) |
-> | [Dayvison](github.com/cauehcraft) |
+> | [Caueh O.](https://github.com/cauehcraft) |
+> | [Dayvison](https://github.com/cauehcraft) |
 > 
 >
 >
