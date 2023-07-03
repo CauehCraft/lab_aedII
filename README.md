@@ -6,7 +6,7 @@
 > | Members|
 > | :----: |
 > | [Caueh O.](https://github.com/cauehcraft) |
-> | [Dayvison](https://github.com/cauehcraft) |
+> | [Dayvison](https://github.com/dayvisonmsilva) |
 > 
 >
 >
