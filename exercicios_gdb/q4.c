@@ -1,40 +1,39 @@
 #include <stdio.h>
 
-int isPerfect(int num)
-{
+// DONE 4
+int retornaSomaDivisores(int numero) {
     int soma = 0;
-    for (int i = 1; i < num; i++)
-    {
-        if (num % i == 0)
-        {
-            soma += i;
+    if (numero == 0) {
+        return soma;
+    } else {
+        for (int i = 1; i < numero; ++i) {
+            if (numero % i == 0) {
+                soma += i;
+            }
         }
     }
-    return soma == num;
+    return (soma==numero);
 }
 
-void imprimirFatores(int num)
-{
-    printf("1");
-    for (int i = 2; i < num; i++)
-    {
-        if (num % i == 0)
-        {
-            printf(" + %d", i);
+// DONE 4
+void isPerfect() {
+    int i, j;
+    for (i = 1; i <= 1000; i++) {
+        if (retornaSomaDivisores(i)) {
+            printf("%d = 1", i);
+
+            for (j = 2; j <= i/2; ++j) {
+                if (i % j == 0) {
+                    printf(" + %d", j);
+                }
+            }
+
+            printf("\n");
         }
     }
-    printf("\n");
 }
 
-int main()
-{
-    for (int i = 1; i <= 1000; i++)
-    {
-        if (isPerfect(i))
-        {
-            printf("%d = ", i);
-            imprimirFatores(i);
-        }
-    }
+int main() {
+    isPerfect();
     return 0;
 }
